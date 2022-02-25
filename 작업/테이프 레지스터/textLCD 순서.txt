@@ -1,0 +1,8 @@
+1. function set ( dl = 1, n = 1, br1 = 1, br0 = 1 )
+2. display on/off control ( d = 1, c = 0, b = 0 )
+3. entry mode set ( i/d = 1, s = 0 )
+
+4. ddram address setting ( 00 ~ 0f / 40 ~ 4f )
+5. busy writing to ddram ( 1행 / 2행 )
+
+4 ~ 5 반복

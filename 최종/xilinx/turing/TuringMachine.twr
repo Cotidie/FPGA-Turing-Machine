@@ -1,0 +1,121 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml TuringMachine.twx TuringMachine.ncd -o TuringMachine.twr
+TuringMachine.pcf -ucf TuringMachine.ucf
+
+Design file:              TuringMachine.ncd
+Physical constraint file: TuringMachine.pcf
+Device,package,speed:     xc6slx45,fgg484,C,-3 (PRODUCTION 1.23 2016-11-22)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                        | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)       | Phase  |
+------------+------------+------------+------------+------------+------------------------+--------+
+key0        |   -0.318(R)|      FAST  |    7.294(R)|      SLOW  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+key1        |   -0.715(R)|      FAST  |    7.822(R)|      SLOW  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+key2        |   -0.853(R)|      FAST  |    7.680(R)|      SLOW  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+key3        |   -0.638(R)|      FAST  |    7.652(R)|      SLOW  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+key4        |   -2.064(R)|      FAST  |    7.064(R)|      SLOW  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+key5        |   -0.621(R)|      FAST  |    7.221(R)|      SLOW  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+key6        |   -0.200(R)|      FAST  |    7.135(R)|      SLOW  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+keyHash     |   -0.838(R)|      FAST  |    7.462(R)|      SLOW  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+quit        |   -3.001(R)|      FAST  |    7.365(R)|      SLOW  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+resume      |   -3.328(R)|      FAST  |    7.519(R)|      SLOW  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+rst         |   -2.084(R)|      FAST  |    7.813(R)|      SLOW  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+            |   -0.266(R)|      FAST  |    2.694(R)|      SLOW  |clk_IBUF_BUFG           |   0.000|
+------------+------------+------------+------------+------------+------------------------+--------+
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                        | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)       | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+com1        |        15.623(R)|      SLOW  |         8.749(R)|      FAST  |clk_IBUF_BUFG           |   0.000|
+com2        |        14.719(R)|      SLOW  |         8.252(R)|      FAST  |clk_IBUF_BUFG           |   0.000|
+com3        |        15.320(R)|      SLOW  |         8.616(R)|      FAST  |clk_IBUF_BUFG           |   0.000|
+com4        |        13.974(R)|      SLOW  |         7.654(R)|      FAST  |clk_IBUF_BUFG           |   0.000|
+com5        |        13.988(R)|      SLOW  |         7.643(R)|      FAST  |clk_IBUF_BUFG           |   0.000|
+com6        |        14.154(R)|      SLOW  |         7.970(R)|      FAST  |clk_IBUF_BUFG           |   0.000|
+com7        |        14.122(R)|      SLOW  |         7.905(R)|      FAST  |clk_IBUF_BUFG           |   0.000|
+com8        |        14.592(R)|      SLOW  |         8.125(R)|      FAST  |clk_IBUF_BUFG           |   0.000|
+led1        |        17.152(R)|      SLOW  |         9.359(R)|      FAST  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+led2        |        18.670(R)|      SLOW  |        10.184(R)|      FAST  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+led3        |        17.504(R)|      SLOW  |         9.606(R)|      FAST  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+led4        |        16.718(R)|      SLOW  |         9.796(R)|      FAST  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+led5        |        15.990(R)|      SLOW  |         9.262(R)|      FAST  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+led6        |        15.714(R)|      SLOW  |         9.100(R)|      FAST  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+led7        |        15.824(R)|      SLOW  |         9.168(R)|      FAST  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+led8        |        15.609(R)|      SLOW  |         9.034(R)|      FAST  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+sega        |        24.827(R)|      SLOW  |        10.746(R)|      FAST  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+            |        20.607(R)|      SLOW  |         8.749(R)|      FAST  |clk_IBUF_BUFG           |   0.000|
+segc        |        23.741(R)|      SLOW  |        10.147(R)|      FAST  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+            |        19.521(R)|      SLOW  |         7.729(R)|      FAST  |clk_IBUF_BUFG           |   0.000|
+segd        |        25.477(R)|      SLOW  |        11.192(R)|      FAST  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+            |        21.257(R)|      SLOW  |         9.195(R)|      FAST  |clk_IBUF_BUFG           |   0.000|
+sege        |        21.767(R)|      SLOW  |        10.085(R)|      FAST  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+            |        15.362(R)|      SLOW  |         8.088(R)|      FAST  |clk_IBUF_BUFG           |   0.000|
+segf        |        23.990(R)|      SLOW  |        10.301(R)|      FAST  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+            |        19.770(R)|      SLOW  |         7.883(R)|      FAST  |clk_IBUF_BUFG           |   0.000|
+segg        |        22.235(R)|      SLOW  |         9.834(R)|      FAST  |SYNTHESIZED_WIRE_35_BUFG|   0.000|
+            |        18.015(R)|      SLOW  |         7.800(R)|      FAST  |clk_IBUF_BUFG           |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    6.696|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+key0           |single_g       |    8.749|
+key1           |single_b       |    7.441|
+key2           |single_c       |    8.410|
+key3           |single_d       |    7.636|
+key4           |single_e       |    6.829|
+key5           |single_f       |    7.914|
+key6           |single_a       |    7.804|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Dec 21 08:27:59 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 448 MB
+
+
+

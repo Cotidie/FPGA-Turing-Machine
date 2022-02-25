@@ -1,0 +1,99 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Mon Dec 20 01:38:55 2021
+# Process ID: 2865
+# Log file: /home/ise/turing/planAhead_run_1/planAhead.log
+# Journal file: /home/ise/turing/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/turing/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin E6 [get_ports a]
+endgroup
+startgroup
+set_property package_pin E5 [get_ports b]
+endgroup
+startgroup
+set_property package_pin D5 [get_ports c]
+endgroup
+startgroup
+set_property package_pin AB16 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin G7 [get_ports com1]
+endgroup
+startgroup
+set_property package_pin G6 [get_ports com2]
+endgroup
+startgroup
+set_property package_pin F7 [get_ports com3]
+endgroup
+startgroup
+set_property package_pin F5 [get_ports com4]
+endgroup
+startgroup
+set_property package_pin K7 [get_ports com5]
+endgroup
+startgroup
+set_property package_pin K6 [get_ports com6]
+endgroup
+startgroup
+set_property package_pin K5 [get_ports com7]
+endgroup
+startgroup
+set_property package_pin J7 [get_ports com8]
+endgroup
+startgroup
+set_property package_pin D6 [get_ports d]
+endgroup
+startgroup
+set_property package_pin H5 [get_ports dp]
+endgroup
+startgroup
+set_property package_pin J6 [get_ports e]
+endgroup
+startgroup
+set_property package_pin H8 [get_ports f]
+endgroup
+startgroup
+set_property package_pin H6 [get_ports g]
+endgroup
+startgroup
+set_property package_pin L1 [get_ports key0]
+endgroup
+startgroup
+set_property package_pin K2 [get_ports key1]
+endgroup
+startgroup
+set_property package_pin M3 [get_ports key2]
+endgroup
+startgroup
+set_property package_pin M1 [get_ports key3]
+endgroup
+startgroup
+set_property package_pin N3 [get_ports key4]
+endgroup
+startgroup
+set_property package_pin N1 [get_ports key5]
+endgroup
+startgroup
+set_property package_pin M2 [get_ports key6]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports keyHash]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports quit]
+endgroup
+startgroup
+set_property package_pin K4 [get_ports rerun]
+endgroup
+startgroup
+set_property package_pin K1 [get_ports resume]
+endgroup
+startgroup
+set_property package_pin L4 [get_ports rst]
+endgroup
+save_constraints

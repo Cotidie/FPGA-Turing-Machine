@@ -1,0 +1,726 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "12/21/2021 13:12:59"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          window
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module window_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [5:0] pos;
+reg [127:0] tapeData;
+// wires                                               
+wire [15:0] lcdData;
+
+// assign statements (if any)                          
+window i1 (
+// port map - connection between master ports and signals/registers   
+	.lcdData(lcdData),
+	.pos(pos),
+	.tapeData(tapeData)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+// pos[ 5 ]
+initial
+begin
+	pos[5] = 1'b0;
+	pos[5] = #90000 1'b1;
+	pos[5] = #100000 1'b0;
+end 
+// pos[ 4 ]
+initial
+begin
+	pos[4] = 1'b0;
+	pos[4] = #190000 1'b1;
+	pos[4] = #100000 1'b0;
+end 
+// pos[ 3 ]
+initial
+begin
+	pos[3] = 1'b0;
+end 
+// pos[ 2 ]
+initial
+begin
+	pos[2] = 1'b1;
+	pos[2] = #290000 1'b0;
+end 
+// pos[ 1 ]
+initial
+begin
+	pos[1] = 1'b1;
+	pos[1] = #190000 1'b0;
+end 
+// pos[ 0 ]
+initial
+begin
+	pos[0] = 1'b0;
+end 
+// tapeData[ 127 ]
+initial
+begin
+	tapeData[127] = 1'b0;
+end 
+// tapeData[ 126 ]
+initial
+begin
+	tapeData[126] = 1'b0;
+end 
+// tapeData[ 125 ]
+initial
+begin
+	tapeData[125] = 1'b0;
+end 
+// tapeData[ 124 ]
+initial
+begin
+	tapeData[124] = 1'b0;
+end 
+// tapeData[ 123 ]
+initial
+begin
+	tapeData[123] = 1'b0;
+end 
+// tapeData[ 122 ]
+initial
+begin
+	tapeData[122] = 1'b0;
+end 
+// tapeData[ 121 ]
+initial
+begin
+	tapeData[121] = 1'b0;
+end 
+// tapeData[ 120 ]
+initial
+begin
+	tapeData[120] = 1'b0;
+end 
+// tapeData[ 119 ]
+initial
+begin
+	tapeData[119] = 1'b0;
+end 
+// tapeData[ 118 ]
+initial
+begin
+	tapeData[118] = 1'b0;
+end 
+// tapeData[ 117 ]
+initial
+begin
+	tapeData[117] = 1'b0;
+end 
+// tapeData[ 116 ]
+initial
+begin
+	tapeData[116] = 1'b0;
+end 
+// tapeData[ 115 ]
+initial
+begin
+	tapeData[115] = 1'b0;
+end 
+// tapeData[ 114 ]
+initial
+begin
+	tapeData[114] = 1'b0;
+end 
+// tapeData[ 113 ]
+initial
+begin
+	tapeData[113] = 1'b0;
+end 
+// tapeData[ 112 ]
+initial
+begin
+	tapeData[112] = 1'b0;
+end 
+// tapeData[ 111 ]
+initial
+begin
+	tapeData[111] = 1'b0;
+end 
+// tapeData[ 110 ]
+initial
+begin
+	tapeData[110] = 1'b0;
+end 
+// tapeData[ 109 ]
+initial
+begin
+	tapeData[109] = 1'b0;
+end 
+// tapeData[ 108 ]
+initial
+begin
+	tapeData[108] = 1'b0;
+end 
+// tapeData[ 107 ]
+initial
+begin
+	tapeData[107] = 1'b0;
+end 
+// tapeData[ 106 ]
+initial
+begin
+	tapeData[106] = 1'b0;
+end 
+// tapeData[ 105 ]
+initial
+begin
+	tapeData[105] = 1'b0;
+end 
+// tapeData[ 104 ]
+initial
+begin
+	tapeData[104] = 1'b0;
+end 
+// tapeData[ 103 ]
+initial
+begin
+	tapeData[103] = 1'b0;
+end 
+// tapeData[ 102 ]
+initial
+begin
+	tapeData[102] = 1'b0;
+end 
+// tapeData[ 101 ]
+initial
+begin
+	tapeData[101] = 1'b0;
+end 
+// tapeData[ 100 ]
+initial
+begin
+	tapeData[100] = 1'b0;
+end 
+// tapeData[ 99 ]
+initial
+begin
+	tapeData[99] = 1'b0;
+end 
+// tapeData[ 98 ]
+initial
+begin
+	tapeData[98] = 1'b0;
+end 
+// tapeData[ 97 ]
+initial
+begin
+	tapeData[97] = 1'b0;
+end 
+// tapeData[ 96 ]
+initial
+begin
+	tapeData[96] = 1'b0;
+end 
+// tapeData[ 95 ]
+initial
+begin
+	tapeData[95] = 1'b0;
+end 
+// tapeData[ 94 ]
+initial
+begin
+	tapeData[94] = 1'b0;
+end 
+// tapeData[ 93 ]
+initial
+begin
+	tapeData[93] = 1'b0;
+end 
+// tapeData[ 92 ]
+initial
+begin
+	tapeData[92] = 1'b0;
+end 
+// tapeData[ 91 ]
+initial
+begin
+	tapeData[91] = 1'b0;
+end 
+// tapeData[ 90 ]
+initial
+begin
+	tapeData[90] = 1'b0;
+end 
+// tapeData[ 89 ]
+initial
+begin
+	tapeData[89] = 1'b0;
+end 
+// tapeData[ 88 ]
+initial
+begin
+	tapeData[88] = 1'b0;
+end 
+// tapeData[ 87 ]
+initial
+begin
+	tapeData[87] = 1'b0;
+end 
+// tapeData[ 86 ]
+initial
+begin
+	tapeData[86] = 1'b0;
+end 
+// tapeData[ 85 ]
+initial
+begin
+	tapeData[85] = 1'b0;
+end 
+// tapeData[ 84 ]
+initial
+begin
+	tapeData[84] = 1'b0;
+end 
+// tapeData[ 83 ]
+initial
+begin
+	tapeData[83] = 1'b0;
+end 
+// tapeData[ 82 ]
+initial
+begin
+	tapeData[82] = 1'b0;
+end 
+// tapeData[ 81 ]
+initial
+begin
+	tapeData[81] = 1'b0;
+end 
+// tapeData[ 80 ]
+initial
+begin
+	tapeData[80] = 1'b0;
+end 
+// tapeData[ 79 ]
+initial
+begin
+	tapeData[79] = 1'b0;
+end 
+// tapeData[ 78 ]
+initial
+begin
+	tapeData[78] = 1'b0;
+end 
+// tapeData[ 77 ]
+initial
+begin
+	tapeData[77] = 1'b0;
+end 
+// tapeData[ 76 ]
+initial
+begin
+	tapeData[76] = 1'b0;
+end 
+// tapeData[ 75 ]
+initial
+begin
+	tapeData[75] = 1'b0;
+end 
+// tapeData[ 74 ]
+initial
+begin
+	tapeData[74] = 1'b0;
+end 
+// tapeData[ 73 ]
+initial
+begin
+	tapeData[73] = 1'b0;
+end 
+// tapeData[ 72 ]
+initial
+begin
+	tapeData[72] = 1'b0;
+end 
+// tapeData[ 71 ]
+initial
+begin
+	tapeData[71] = 1'b0;
+end 
+// tapeData[ 70 ]
+initial
+begin
+	tapeData[70] = 1'b0;
+end 
+// tapeData[ 69 ]
+initial
+begin
+	tapeData[69] = 1'b0;
+end 
+// tapeData[ 68 ]
+initial
+begin
+	tapeData[68] = 1'b0;
+end 
+// tapeData[ 67 ]
+initial
+begin
+	tapeData[67] = 1'b0;
+end 
+// tapeData[ 66 ]
+initial
+begin
+	tapeData[66] = 1'b0;
+end 
+// tapeData[ 65 ]
+initial
+begin
+	tapeData[65] = 1'b0;
+end 
+// tapeData[ 64 ]
+initial
+begin
+	tapeData[64] = 1'b0;
+end 
+// tapeData[ 63 ]
+initial
+begin
+	tapeData[63] = 1'b0;
+end 
+// tapeData[ 62 ]
+initial
+begin
+	tapeData[62] = 1'b0;
+end 
+// tapeData[ 61 ]
+initial
+begin
+	tapeData[61] = 1'b0;
+end 
+// tapeData[ 60 ]
+initial
+begin
+	tapeData[60] = 1'b0;
+end 
+// tapeData[ 59 ]
+initial
+begin
+	tapeData[59] = 1'b0;
+end 
+// tapeData[ 58 ]
+initial
+begin
+	tapeData[58] = 1'b0;
+end 
+// tapeData[ 57 ]
+initial
+begin
+	tapeData[57] = 1'b0;
+end 
+// tapeData[ 56 ]
+initial
+begin
+	tapeData[56] = 1'b0;
+end 
+// tapeData[ 55 ]
+initial
+begin
+	tapeData[55] = 1'b0;
+end 
+// tapeData[ 54 ]
+initial
+begin
+	tapeData[54] = 1'b1;
+end 
+// tapeData[ 53 ]
+initial
+begin
+	tapeData[53] = 1'b0;
+end 
+// tapeData[ 52 ]
+initial
+begin
+	tapeData[52] = 1'b1;
+end 
+// tapeData[ 51 ]
+initial
+begin
+	tapeData[51] = 1'b1;
+end 
+// tapeData[ 50 ]
+initial
+begin
+	tapeData[50] = 1'b0;
+end 
+// tapeData[ 49 ]
+initial
+begin
+	tapeData[49] = 1'b0;
+end 
+// tapeData[ 48 ]
+initial
+begin
+	tapeData[48] = 1'b1;
+end 
+// tapeData[ 47 ]
+initial
+begin
+	tapeData[47] = 1'b0;
+end 
+// tapeData[ 46 ]
+initial
+begin
+	tapeData[46] = 1'b0;
+end 
+// tapeData[ 45 ]
+initial
+begin
+	tapeData[45] = 1'b0;
+end 
+// tapeData[ 44 ]
+initial
+begin
+	tapeData[44] = 1'b0;
+end 
+// tapeData[ 43 ]
+initial
+begin
+	tapeData[43] = 1'b0;
+end 
+// tapeData[ 42 ]
+initial
+begin
+	tapeData[42] = 1'b0;
+end 
+// tapeData[ 41 ]
+initial
+begin
+	tapeData[41] = 1'b0;
+end 
+// tapeData[ 40 ]
+initial
+begin
+	tapeData[40] = 1'b0;
+end 
+// tapeData[ 39 ]
+initial
+begin
+	tapeData[39] = 1'b0;
+end 
+// tapeData[ 38 ]
+initial
+begin
+	tapeData[38] = 1'b0;
+end 
+// tapeData[ 37 ]
+initial
+begin
+	tapeData[37] = 1'b0;
+end 
+// tapeData[ 36 ]
+initial
+begin
+	tapeData[36] = 1'b0;
+end 
+// tapeData[ 35 ]
+initial
+begin
+	tapeData[35] = 1'b0;
+end 
+// tapeData[ 34 ]
+initial
+begin
+	tapeData[34] = 1'b0;
+end 
+// tapeData[ 33 ]
+initial
+begin
+	tapeData[33] = 1'b0;
+end 
+// tapeData[ 32 ]
+initial
+begin
+	tapeData[32] = 1'b0;
+end 
+// tapeData[ 31 ]
+initial
+begin
+	tapeData[31] = 1'b0;
+end 
+// tapeData[ 30 ]
+initial
+begin
+	tapeData[30] = 1'b0;
+end 
+// tapeData[ 29 ]
+initial
+begin
+	tapeData[29] = 1'b0;
+end 
+// tapeData[ 28 ]
+initial
+begin
+	tapeData[28] = 1'b0;
+end 
+// tapeData[ 27 ]
+initial
+begin
+	tapeData[27] = 1'b0;
+end 
+// tapeData[ 26 ]
+initial
+begin
+	tapeData[26] = 1'b0;
+end 
+// tapeData[ 25 ]
+initial
+begin
+	tapeData[25] = 1'b0;
+end 
+// tapeData[ 24 ]
+initial
+begin
+	tapeData[24] = 1'b0;
+end 
+// tapeData[ 23 ]
+initial
+begin
+	tapeData[23] = 1'b0;
+end 
+// tapeData[ 22 ]
+initial
+begin
+	tapeData[22] = 1'b0;
+end 
+// tapeData[ 21 ]
+initial
+begin
+	tapeData[21] = 1'b0;
+end 
+// tapeData[ 20 ]
+initial
+begin
+	tapeData[20] = 1'b0;
+end 
+// tapeData[ 19 ]
+initial
+begin
+	tapeData[19] = 1'b0;
+end 
+// tapeData[ 18 ]
+initial
+begin
+	tapeData[18] = 1'b0;
+end 
+// tapeData[ 17 ]
+initial
+begin
+	tapeData[17] = 1'b0;
+end 
+// tapeData[ 16 ]
+initial
+begin
+	tapeData[16] = 1'b0;
+end 
+// tapeData[ 15 ]
+initial
+begin
+	tapeData[15] = 1'b0;
+end 
+// tapeData[ 14 ]
+initial
+begin
+	tapeData[14] = 1'b0;
+end 
+// tapeData[ 13 ]
+initial
+begin
+	tapeData[13] = 1'b0;
+end 
+// tapeData[ 12 ]
+initial
+begin
+	tapeData[12] = 1'b0;
+end 
+// tapeData[ 11 ]
+initial
+begin
+	tapeData[11] = 1'b0;
+end 
+// tapeData[ 10 ]
+initial
+begin
+	tapeData[10] = 1'b0;
+end 
+// tapeData[ 9 ]
+initial
+begin
+	tapeData[9] = 1'b0;
+end 
+// tapeData[ 8 ]
+initial
+begin
+	tapeData[8] = 1'b0;
+end 
+// tapeData[ 7 ]
+initial
+begin
+	tapeData[7] = 1'b0;
+end 
+// tapeData[ 6 ]
+initial
+begin
+	tapeData[6] = 1'b0;
+end 
+// tapeData[ 5 ]
+initial
+begin
+	tapeData[5] = 1'b0;
+end 
+// tapeData[ 4 ]
+initial
+begin
+	tapeData[4] = 1'b0;
+end 
+// tapeData[ 3 ]
+initial
+begin
+	tapeData[3] = 1'b0;
+end 
+// tapeData[ 2 ]
+initial
+begin
+	tapeData[2] = 1'b0;
+end 
+// tapeData[ 1 ]
+initial
+begin
+	tapeData[1] = 1'b0;
+end 
+// tapeData[ 0 ]
+initial
+begin
+	tapeData[0] = 1'b0;
+end 
+endmodule
+

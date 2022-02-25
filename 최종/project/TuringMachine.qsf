@@ -1,0 +1,198 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# Date created = 18:17:24  December 02, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		TuringMachine_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX V"
+set_global_assignment -name DEVICE auto
+set_global_assignment -name TOP_LEVEL_ENTITY TuringMachine
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:17:24  DECEMBER 02, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name BDF_FILE Display/BinaryToSeg3Bit.bdf
+set_global_assignment -name BDF_FILE IsStable.bdf
+set_global_assignment -name BDF_FILE ControlUnit/s13.bdf
+set_global_assignment -name BDF_FILE TuringMachineDev.bdf
+set_global_assignment -name BDF_FILE TapeRegister/count_2.bdf
+set_global_assignment -name BDF_FILE TapeRegister/count_8.bdf
+set_global_assignment -name BDF_FILE TapeRegister/count_com.bdf
+set_global_assignment -name BDF_FILE TapeRegister/window.bdf
+set_global_assignment -name BDF_FILE TapeRegister/tapeSymbolFinder.bdf
+set_global_assignment -name BDF_FILE TapeRegister/tape_64.bdf
+set_global_assignment -name BDF_FILE TapeRegister/RippleCarryAdder6bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/reg_2bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/reg_1bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/mux_64x1_2bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/mux_32x1_2bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/mux_16x1_2bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/mux_8x1_2bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/mux_4x1_2bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/mux_2x1_2bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/mux_2x1.bdf
+set_global_assignment -name BDF_FILE TapeRegister/HalfAdder.bdf
+set_global_assignment -name BDF_FILE TapeRegister/FullAdder.bdf
+set_global_assignment -name BDF_FILE TapeRegister/demux_1x64_2bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/demux_1x64.bdf
+set_global_assignment -name BDF_FILE TapeRegister/demux_1x32_2bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/demux_1x32.bdf
+set_global_assignment -name BDF_FILE TapeRegister/demux_1x16_2bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/demux_1x16.bdf
+set_global_assignment -name BDF_FILE TapeRegister/demux_1x8_2bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/demux_1x8.bdf
+set_global_assignment -name BDF_FILE TapeRegister/demux_1x4_2bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/demux_1x4.bdf
+set_global_assignment -name BDF_FILE TapeRegister/demux_1x2_2bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/demux_1x2.bdf
+set_global_assignment -name BDF_FILE TapeRegister/dec_8_6bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/dec_7_6bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/dec_6_6bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/dec_5_6bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/dec_4_6bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/dec_3_6bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/dec_2_6bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/dec_1_6bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/cvt_128x1_2x64.bdf
+set_global_assignment -name BDF_FILE TapeRegister/cvt_4x2_8x1.bdf
+set_global_assignment -name BDF_FILE TapeRegister/cvt_4x1_2x2.bdf
+set_global_assignment -name BDF_FILE TapeRegister/cvt_4x1_1x4.bdf
+set_global_assignment -name BDF_FILE TapeRegister/cvt_2x1_1x2.bdf
+set_global_assignment -name BDF_FILE TapeRegister/cvt_1x5_5x1.bdf
+set_global_assignment -name BDF_FILE TapeRegister/cvt_1x4_4x1.bdf
+set_global_assignment -name BDF_FILE TapeRegister/cvt_1x3_3x1.bdf
+set_global_assignment -name BDF_FILE TapeRegister/cvt_1x2_2x1.bdf
+set_global_assignment -name BDF_FILE TapeRegister/dec_1_3bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/dec_2_3bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/dec_3_3bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/dec_4_3bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/dec_5_3bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/dec_6_3bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/dec_7_3bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/dec_0_3bit.bdf
+set_global_assignment -name BDF_FILE TapeRegister/render_s234567.bdf
+set_global_assignment -name BDF_FILE TapeRegister/render_tapeSymbol.bdf
+set_global_assignment -name BDF_FILE TapeRegister/render_tapeSymbol_0.bdf
+set_global_assignment -name BDF_FILE TapeRegister/render_tapeSymbol_1.bdf
+set_global_assignment -name BDF_FILE TapeRegister/render_tapeSymbol_2.bdf
+set_global_assignment -name BDF_FILE TapeRegister/render_tapeSymbol_3.bdf
+set_global_assignment -name BDF_FILE TapeRegister/TapeRegister.bdf
+set_global_assignment -name BDF_FILE TapeRegister/LCD.bdf
+set_global_assignment -name BDF_FILE Cursor/InitialAddress.bdf
+set_global_assignment -name BDF_FILE Cursor/CursorMode.bdf
+set_global_assignment -name BDF_FILE Cursor/Cursor.bdf
+set_global_assignment -name BDF_FILE InputTrigger/triggerMode.bdf
+set_global_assignment -name BDF_FILE InputTrigger/ud_trigger.bdf
+set_global_assignment -name BDF_FILE InputTrigger/mode_selector.bdf
+set_global_assignment -name BDF_FILE InputTrigger/keypad.bdf
+set_global_assignment -name BDF_FILE InputTrigger/d2b_3bit.bdf
+set_global_assignment -name BDF_FILE InputTrigger/b2d_2bit.bdf
+set_global_assignment -name BDF_FILE General/Reverser6bit.bdf
+set_global_assignment -name BDF_FILE General/HalfAdder.bdf
+set_global_assignment -name BDF_FILE General/FullAdder.bdf
+set_global_assignment -name BDF_FILE General/RippleCarryAdder6bit.bdf
+set_global_assignment -name BDF_FILE General/OneHotEncoder3.bdf
+set_global_assignment -name BDF_FILE General/OneHotEncoder2.bdf
+set_global_assignment -name BDF_FILE General/OneHotDecoder3.bdf
+set_global_assignment -name BDF_FILE General/OneHotDecoder2.bdf
+set_global_assignment -name BDF_FILE General/Mux8bit8x1.bdf
+set_global_assignment -name BDF_FILE General/Mux8bit4x1.bdf
+set_global_assignment -name BDF_FILE General/Mux8bit2x1.bdf
+set_global_assignment -name BDF_FILE General/Mux6bit4x1.bdf
+set_global_assignment -name BDF_FILE General/Mux6bit2x1.bdf
+set_global_assignment -name BDF_FILE General/Mux4bit2x1.bdf
+set_global_assignment -name BDF_FILE General/Mux3bit2x1.bdf
+set_global_assignment -name BDF_FILE General/Mux2bit2x1.bdf
+set_global_assignment -name BDF_FILE General/Mux1bit2x1.bdf
+set_global_assignment -name BDF_FILE General/DeMux8bit1x2.bdf
+set_global_assignment -name BDF_FILE General/DeMux4bit1x2.bdf
+set_global_assignment -name BDF_FILE General/DeMux1bit1x2.bdf
+set_global_assignment -name BDF_FILE General/Register1.bdf
+set_global_assignment -name BDF_FILE General/Register2.bdf
+set_global_assignment -name BDF_FILE General/Register3.bdf
+set_global_assignment -name BDF_FILE General/Register6.bdf
+set_global_assignment -name BDF_FILE General/Register8.bdf
+set_global_assignment -name BDF_FILE ControlUnit/s3456.bdf
+set_global_assignment -name BDF_FILE ControlUnit/s12.bdf
+set_global_assignment -name BDF_FILE ControlUnit/s9.bdf
+set_global_assignment -name BDF_FILE ControlUnit/s8.bdf
+set_global_assignment -name BDF_FILE ControlUnit/s7.bdf
+set_global_assignment -name BDF_FILE ControlUnit/s2.bdf
+set_global_assignment -name BDF_FILE ControlUnit/s1.bdf
+set_global_assignment -name BDF_FILE ControlUnit/s0.bdf
+set_global_assignment -name BDF_FILE ControlUnit/ControlUnit.bdf
+set_global_assignment -name BDF_FILE TableRegister/SymbolRegister.bdf
+set_global_assignment -name BDF_FILE TableRegister/StateRegister.bdf
+set_global_assignment -name BDF_FILE TableRegister/Selector.bdf
+set_global_assignment -name BDF_FILE TableRegister/Selector3.bdf
+set_global_assignment -name BDF_FILE TableRegister/SRAM4x8bit.bdf
+set_global_assignment -name BDF_FILE TableRegister/SRAM32x8bit.bdf
+set_global_assignment -name BDF_FILE TableRegister/TableRegister.bdf
+set_global_assignment -name BDF_FILE TuringMachine.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Onehot3.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE BusDeMux8bit1x2.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Encoder8x3.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Selector3.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE BusMux8.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Register8.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE SRAM.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE ControlUnit.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE SRAM32x8bit.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE BusMux4.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TableRegister.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TuringMachine.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE RippleCarryAdder.vwf
+set_global_assignment -name BDF_FILE TestBed.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestBed.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Cursor.vwf
+set_global_assignment -name BDF_FILE General/Compare2bit.bdf
+set_global_assignment -name BDF_FILE General/Compare3bit.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TapeRegister.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE count_8.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE count_com.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE LCD.vwf
+set_global_assignment -name BDF_FILE clk_modifier.bdf
+set_global_assignment -name BDF_FILE s_gather.bdf
+set_global_assignment -name BDF_FILE Display/SegDisplay.bdf
+set_global_assignment -name BDF_FILE Display/BinaryToSeg2Bit.bdf
+set_global_assignment -name BDF_FILE General/Mux2bit4x1.bdf
+set_global_assignment -name BDF_FILE General/Mux2bit8x1.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE SegDisplay.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE window.vwf
+set_global_assignment -name BDF_FILE General/Bus6bit1.bdf
+set_global_assignment -name BDF_FILE General/Bus6bit2.bdf
+set_global_assignment -name BDF_FILE General/Bus6bit3.bdf
+set_global_assignment -name BDF_FILE General/Bus6bit4.bdf

@@ -1,0 +1,569 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Mon Dec 20 01:38:55 2021
+# Process ID: 2865
+# Log file: /home/ise/turing/planAhead_run_1/planAhead.log
+# Journal file: /home/ise/turing/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1695 day(s)
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /home/ise/turing/pa.fromHdl.tcl
+# create_project -name turing -dir "/home/ise/turing/planAhead_run_1" -part xc6slx45fgg484-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "TuringMachine.ucf" [current_fileset -constrset]
+Adding file '/home/ise/turing/TuringMachine.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {../xilinx_project/mux_2x1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/mux_2x1_2bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/demux_1x2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/mux_4x1_2bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/demux_1x2_2bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/cvt_1x2_2x1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/mux_8x1_2bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Mux1bit2x1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/demux_1x4_2bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/demux_1x4.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/DeMux1bit1x2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/cvt_1x3_3x1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Register1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/OneHotEncoder2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/OneHotDecoder2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/mux_16x1_2bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Mux8bit2x1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Mux4bit2x1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Mux2bit2x1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/demux_1x8_2bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/demux_1x8.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/DeMux4bit1x2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/cvt_1x4_4x1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Selector.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Register8.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/OneHotEncoder3.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/OneHotDecoder3.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/mux_32x1_2bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Mux8bit4x1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/HalfAdder.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/demux_1x16_2bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/demux_1x16.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/DeMux8bit1x2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/cvt_1x5_5x1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/SRAM4x8bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Selector3.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/render_tapeSymbol_3.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/render_tapeSymbol_2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/render_tapeSymbol_1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/render_tapeSymbol_0.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/reg_1bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Register3.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Register2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/mux_64x1_2bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Mux8bit8x1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Mux6bit2x1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Mux3bit2x1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/FullAdder.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/demux_1x32_2bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/demux_1x32.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/cvt_128x1_2x64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/count_8.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/count_2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/ud_trigger.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/tapeSymbolFinder.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/s_gather.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/SymbolRegister.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/StateRegister.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/SRAM32x8bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/s9.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/s8.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/s7.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/s3456.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/s2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/s12.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/s1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/s0.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/RippleCarryAdder6bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/render_tapeSymbol.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/render_s234567.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/reg_2bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Register6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/PNU_CLK_DIV.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Mux6bit4x1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/InitialAddress.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/demux_1x64_2bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/demux_1x64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/dec_7_3bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/dec_6_3bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/dec_5_3bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/dec_4_6bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/dec_4_3bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/dec_3_6bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/dec_3_3bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/dec_2_6bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/dec_2_3bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/dec_1_6bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/dec_1_3bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/dec_0_3bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/d2b_3bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/cvt_2x1_1x2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/CursorMode.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/count_com.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Compare2bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/b2d_2bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/window.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/triggerMode.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/tape_64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/TableRegister.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Reverser6bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/LCD.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/keypad.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Cursor.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/ControlUnit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/Compare3bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/clk_modifier.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../xilinx_project/TuringMachine.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top TuringMachine $srcset
+# add_files [list {TuringMachine.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx45fgg484-3
+Using Verific elaboration
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "/home/ise/xilinx_project/mux_2x1.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/mux_2x1_2bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/demux_1x2.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/mux_4x1_2bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/demux_1x2_2bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/cvt_1x2_2x1.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/mux_8x1_2bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Mux1bit2x1.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/demux_1x4_2bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/demux_1x4.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/DeMux1bit1x2.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/cvt_1x3_3x1.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Register1.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/OneHotEncoder2.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/OneHotDecoder2.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/mux_16x1_2bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Mux8bit2x1.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Mux4bit2x1.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Mux2bit2x1.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/demux_1x8_2bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/demux_1x8.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/DeMux4bit1x2.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/cvt_1x4_4x1.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Selector.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Register8.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/OneHotEncoder3.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/OneHotDecoder3.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/mux_32x1_2bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Mux8bit4x1.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/HalfAdder.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/demux_1x16_2bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/demux_1x16.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/DeMux8bit1x2.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/cvt_1x5_5x1.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/SRAM4x8bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Selector3.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/render_tapeSymbol_3.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/render_tapeSymbol_2.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/render_tapeSymbol_1.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/render_tapeSymbol_0.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/reg_1bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Register3.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Register2.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/mux_64x1_2bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Mux8bit8x1.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Mux6bit2x1.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Mux3bit2x1.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/FullAdder.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/demux_1x32_2bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/demux_1x32.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/cvt_128x1_2x64.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/count_8.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/count_2.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/ud_trigger.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/tapeSymbolFinder.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/s_gather.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/SymbolRegister.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/StateRegister.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/SRAM32x8bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/s9.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/s8.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/s7.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/s3456.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/s2.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/s12.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/s1.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/s0.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/RippleCarryAdder6bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/render_tapeSymbol.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/render_s234567.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/reg_2bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Register6.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/PNU_CLK_DIV.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Mux6bit4x1.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/InitialAddress.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/demux_1x64_2bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/demux_1x64.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/dec_7_3bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/dec_6_3bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/dec_5_3bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/dec_4_6bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/dec_4_3bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/dec_3_6bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/dec_3_3bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/dec_2_6bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/dec_2_3bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/dec_1_6bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/dec_1_3bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/dec_0_3bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/d2b_3bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/cvt_2x1_1x2.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/CursorMode.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/count_com.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Compare2bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/b2d_2bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/window.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/triggerMode.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/tape_64.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/TableRegister.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Reverser6bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/LCD.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/keypad.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Cursor.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/ControlUnit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/Compare3bit.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/clk_modifier.v" into library work
+Analyzing Verilog file "/home/ise/xilinx_project/TuringMachine.v" into library work
+CRITICAL WARNING: [EDIF 20-96] Could not resolve non-primitive black box cell 'busmux_0' instantiated as 'b2v_inst' [/home/ise/xilinx_project/reg_1bit.v:43]
+Resolution: File names need to match cell names: an EDIF definition will be found in busmux_0.edf; an HDL definition may be placed in any Verilog/VHDL file.
+Loading clock regions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx45/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx45/ClockBuffers.xml
+Loading package pin functions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx45/fgg484/Package.xml
+Loading io standards from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [/home/ise/turing/TuringMachine.ucf]
+Finished Parsing UCF File [/home/ise/turing/TuringMachine.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 1cf7c219
+open_rtl_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:46 . Memory (MB): peak = 2816.113 ; gain = 165.879
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin E6 [get_ports a]
+endgroup
+startgroup
+set_property package_pin E5 [get_ports b]
+endgroup
+startgroup
+set_property package_pin D5 [get_ports c]
+endgroup
+startgroup
+set_property package_pin AB16 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin G7 [get_ports com1]
+endgroup
+startgroup
+set_property package_pin G6 [get_ports com2]
+endgroup
+startgroup
+set_property package_pin F7 [get_ports com3]
+endgroup
+startgroup
+set_property package_pin F5 [get_ports com4]
+endgroup
+startgroup
+set_property package_pin K7 [get_ports com5]
+endgroup
+startgroup
+set_property package_pin K6 [get_ports com6]
+endgroup
+startgroup
+set_property package_pin K5 [get_ports com7]
+endgroup
+startgroup
+set_property package_pin J7 [get_ports com8]
+endgroup
+startgroup
+set_property package_pin D6 [get_ports d]
+endgroup
+startgroup
+set_property package_pin H5 [get_ports dp]
+endgroup
+startgroup
+set_property package_pin J6 [get_ports e]
+endgroup
+startgroup
+set_property package_pin H8 [get_ports f]
+endgroup
+startgroup
+set_property package_pin H6 [get_ports g]
+endgroup
+startgroup
+set_property package_pin L1 [get_ports key0]
+endgroup
+startgroup
+set_property package_pin K2 [get_ports key1]
+endgroup
+startgroup
+set_property package_pin M3 [get_ports key2]
+endgroup
+startgroup
+set_property package_pin M1 [get_ports key3]
+endgroup
+startgroup
+set_property package_pin N3 [get_ports key4]
+endgroup
+startgroup
+set_property package_pin N1 [get_ports key5]
+endgroup
+startgroup
+set_property package_pin M2 [get_ports key6]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports keyHash]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports quit]
+endgroup
+startgroup
+set_property package_pin K4 [get_ports rerun]
+endgroup
+startgroup
+set_property package_pin K1 [get_ports resume]
+endgroup
+startgroup
+set_property package_pin L4 [get_ports rst]
+endgroup
+save_constraints
+exit
+ERROR: [#UNDEF] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See /home/ise/turing/planAhead_pid2865.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Dec 20 01:45:17 2021...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -1,0 +1,11 @@
+Fitter Status : Successful - Wed Dec 22 11:04:30 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : TuringMachine
+Top-level Entity Name : TuringMachine
+Family : MAX V
+Device : 5M2210ZF256C4
+Timing Models : Final
+Total logic elements : 1,249 / 2,210 ( 57 % )
+Total pins : 43 / 203 ( 21 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

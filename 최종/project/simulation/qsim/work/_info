@@ -1,0 +1,1249 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/Desktop/TuringMachine/simulation/qsim
+vBusDeMux8bit1x2
+Z1 !s110 1638445907
+!i10b 1
+!s100 MklWF?Rj8e<I_a^cMlOX93
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I62V8R3O79]3I:3;7nFdVi1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1638445906
+Z4 8TuringMachine.vo
+Z5 FTuringMachine.vo
+!i122 34
+L0 32 871
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1638445907.000000
+Z8 !s107 TuringMachine.vo|
+Z9 !s90 -work|work|TuringMachine.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@bus@de@mux8bit1x2
+vBusDeMux8bit1x2_vlg_vec_tst
+R1
+!i10b 1
+!s100 _0>lRX78A7_bVGnQC3_l`0
+R2
+I33iZVEATkI^aUUfE1_nB63
+R3
+R0
+w1638445905
+8BusDeMux8bit1x2.vwf.vt
+FBusDeMux8bit1x2.vwf.vt
+!i122 35
+L0 30 70
+R6
+r1
+!s85 0
+31
+R7
+!s107 BusDeMux8bit1x2.vwf.vt|
+!s90 -work|work|BusDeMux8bit1x2.vwf.vt|
+!i113 1
+R10
+R11
+n@bus@de@mux8bit1x2_vlg_vec_tst
+vBusMux4
+Z12 !s110 1638441979
+!i10b 1
+!s100 A>ak>jk?TTbKIl2XV8E`40
+R2
+I4UWZe]cmQ59b@4[kf4]]G1
+R3
+R0
+Z13 w1638441977
+R4
+R5
+!i122 24
+L0 32 1048
+R6
+r1
+!s85 0
+31
+Z14 !s108 1638441979.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@bus@mux4
+vBusMux4_vlg_vec_tst
+R12
+!i10b 1
+!s100 l`D[3UFnLFi0[eI:fQ56S1
+R2
+IVI=h3jah2WAblm:dR==:b3
+R3
+R0
+R13
+8BusMux4.vwf.vt
+FBusMux4.vwf.vt
+!i122 25
+L0 30 202
+R6
+r1
+!s85 0
+31
+R14
+!s107 BusMux4.vwf.vt|
+!s90 -work|work|BusMux4.vwf.vt|
+!i113 1
+R10
+R11
+n@bus@mux4_vlg_vec_tst
+vBusMux8
+Z15 !s110 1638449078
+!i10b 1
+!s100 HGIXN9N09l=`ElV[[20mk0
+R2
+IUWFQV@=R5a<PcLBojdfhM3
+R3
+R0
+w1638449077
+R4
+R5
+!i122 44
+L0 32 2278
+R6
+r1
+!s85 0
+31
+Z16 !s108 1638449078.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@bus@mux8
+vBusMux8_vlg_vec_tst
+R15
+!i10b 1
+!s100 ^`YAW4A_2PZ;YDQNV1XR]2
+R2
+INlERT5JeKSVE^QSKQL0[]3
+R3
+R0
+w1638449076
+8BusMux8.vwf.vt
+FBusMux8.vwf.vt
+!i122 45
+L0 30 379
+R6
+r1
+!s85 0
+31
+R16
+!s107 BusMux8.vwf.vt|
+!s90 -work|work|BusMux8.vwf.vt|
+!i113 1
+R10
+R11
+n@bus@mux8_vlg_vec_tst
+vclk_modifier
+Z17 !s110 1639719102
+!i10b 1
+!s100 d`WCoQCo_MQ;adH[E>Vc50
+R2
+I]]b5T_BTXXE6ZV^[iPHdJ0
+R3
+Z18 dC:/Users/daily/Desktop/TuringMachine/simulation/qsim
+w1639719098
+R4
+R5
+!i122 216
+L0 32 1706
+R6
+r1
+!s85 0
+31
+Z19 !s108 1639719102.000000
+R8
+R9
+!i113 1
+R10
+R11
+vclk_modifier_vlg_vec_tst
+R17
+!i10b 1
+!s100 5TYHo2Q6nCbm<<04_ER020
+R2
+IIh_hNR0Lib90RH0cG5m]l2
+R3
+R18
+w1639719093
+Z20 8TestBed.vwf.vt
+Z21 FTestBed.vwf.vt
+!i122 217
+L0 30 119
+R6
+r1
+!s85 0
+31
+R19
+Z22 !s107 TestBed.vwf.vt|
+Z23 !s90 -work|work|TestBed.vwf.vt|
+!i113 1
+R10
+R11
+vControlUnit
+Z24 !s110 1640108668
+!i10b 1
+!s100 ??`P3^8b^Mnz5iVWezX?C2
+R2
+IfnWQZDQ9C?CLPXeBGOe@H0
+R3
+Z25 dC:/Users/daily/Desktop/TuringMachine/project/simulation/qsim
+w1640108664
+R4
+R5
+!i122 348
+L0 32 882
+R6
+r1
+!s85 0
+31
+Z26 !s108 1640108668.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@control@unit
+vControlUnit_vlg_vec_tst
+R24
+!i10b 1
+!s100 lC[FgjM`OZ@onCG=[i8OU2
+R2
+IfT6zTTzZ8kJWNiHzzWg4]0
+R3
+R25
+w1640108663
+8ControlUnit.vwf.vt
+FControlUnit.vwf.vt
+!i122 349
+L0 30 81
+R6
+r1
+!s85 0
+31
+R26
+!s107 ControlUnit.vwf.vt|
+!s90 -work|work|ControlUnit.vwf.vt|
+!i113 1
+R10
+R11
+n@control@unit_vlg_vec_tst
+vcount_8
+Z27 !s110 1639652018
+!i10b 1
+!s100 hZR1T47]6bC1hC^C]E]a<1
+R2
+IZ@7PM[7L1:Uz>QPzfRAg<3
+R3
+R18
+w1639652015
+R4
+R5
+!i122 206
+L0 32 201
+R6
+r1
+!s85 0
+31
+Z28 !s108 1639652018.000000
+R8
+R9
+!i113 1
+R10
+R11
+vcount_8_vlg_vec_tst
+R27
+!i10b 1
+!s100 >RboaGJNFSAoz<[Y:RhS?3
+R2
+I]jVROd_JcXLn69jZ6Ko5H3
+R3
+R18
+w1639652013
+8count_8.vwf.vt
+Fcount_8.vwf.vt
+!i122 207
+L0 30 42
+R6
+r1
+!s85 0
+31
+R28
+!s107 count_8.vwf.vt|
+!s90 -work|work|count_8.vwf.vt|
+!i113 1
+R10
+R11
+vcount_com
+Z29 !s110 1639652848
+!i10b 1
+!s100 MJ3V@3ORT]Wlbk1_gYT:22
+R2
+IEID1:^WOnCIMKkmKG3BV:0
+R3
+R18
+w1639652844
+R4
+R5
+!i122 208
+L0 32 548
+R6
+r1
+!s85 0
+31
+!s108 1639652847.000000
+R8
+R9
+!i113 1
+R10
+R11
+vcount_com_vlg_vec_tst
+R29
+!i10b 1
+!s100 Uc?Yn@Rljm8gCK7>b57W<2
+R2
+IZO>64:j1`<i9N^XJbLdhA0
+R3
+R18
+w1639652842
+8count_com.vwf.vt
+Fcount_com.vwf.vt
+!i122 209
+L0 30 48
+R6
+r1
+!s85 0
+31
+!s108 1639652848.000000
+!s107 count_com.vwf.vt|
+!s90 -work|work|count_com.vwf.vt|
+!i113 1
+R10
+R11
+vCursor
+Z30 !s110 1638990091
+!i10b 1
+!s100 FBadRzHM9OB]Y8Gmm:E4e3
+R2
+IJcg82Gj?0mZ6O]Y:2NHb83
+R3
+Z31 dC:/Users/daily/Desktop/TuringMachine (1)/simulation/qsim
+w1638990085
+R4
+R5
+!i122 144
+L0 32 784
+R6
+r1
+!s85 0
+31
+!s108 1638990090.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@cursor
+vCursor_vlg_vec_tst
+R30
+!i10b 1
+!s100 A8_Hk@BJ1DzW_cWZe9YJ03
+R2
+Ich>m:LPAaA[ZlkEB>E?PD1
+R3
+R31
+w1638990080
+8Cursor.vwf.vt
+FCursor.vwf.vt
+!i122 145
+L0 30 138
+R6
+r1
+!s85 0
+31
+!s108 1638990091.000000
+!s107 Cursor.vwf.vt|
+!s90 -work|work|Cursor.vwf.vt|
+!i113 1
+R10
+R11
+n@cursor_vlg_vec_tst
+vCursorMode
+Z32 !s110 1638989346
+!i10b 1
+!s100 IOQBITiUF7ii^R9TP2][H3
+R2
+IPO:Kg8@2l<b<bzB9IVY^n1
+R3
+R31
+w1638989340
+R4
+R5
+!i122 130
+L0 32 271
+R6
+r1
+!s85 0
+31
+!s108 1638989345.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@cursor@mode
+vCursorMode_vlg_vec_tst
+R32
+!i10b 1
+!s100 J2gbFRGaOQXRQmXezORJX0
+R2
+Ik]`kN=ggZC5Z6R]oP1XX92
+R3
+R31
+w1638989335
+R20
+R21
+!i122 131
+L0 30 102
+R6
+r1
+!s85 0
+31
+!s108 1638989346.000000
+R22
+R23
+!i113 1
+R10
+R11
+n@cursor@mode_vlg_vec_tst
+vEncoder8x3
+Z33 !s110 1638447467
+!i10b 1
+!s100 6G?5iG@AY_gg074nzH>c30
+R2
+I3RnUSU<TXEl1jKaRkhFm50
+R3
+R0
+w1638447466
+R4
+R5
+!i122 38
+L0 32 319
+R6
+r1
+!s85 0
+31
+Z34 !s108 1638447467.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@encoder8x3
+vEncoder8x3_vlg_vec_tst
+R33
+!i10b 1
+!s100 dA:ZKNHO3OF?Gnh`:XORK2
+R2
+IF9_Z:0CKVLRXGdT8A@MSC3
+R3
+R0
+w1638447465
+8Encoder8x3.vwf.vt
+FEncoder8x3.vwf.vt
+!i122 39
+L0 30 74
+R6
+r1
+!s85 0
+31
+R34
+!s107 Encoder8x3.vwf.vt|
+!s90 -work|work|Encoder8x3.vwf.vt|
+!i113 1
+R10
+R11
+n@encoder8x3_vlg_vec_tst
+vMux2bit4x1
+Z35 !s110 1640049134
+!i10b 1
+!s100 zABbJSf8j`j<;EVmeH<]M0
+R2
+I1V[:bkgCO>c5f=NAT;0kd0
+R3
+Z36 dC:/Users/user/Desktop/TuringMachine_2021_12_21_0800/project/simulation/qsim
+w1640049133
+R4
+R5
+!i122 264
+L0 32 304
+R6
+r1
+!s85 0
+31
+Z37 !s108 1640049134.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@mux2bit4x1
+vMux2bit4x1_vlg_vec_tst
+R35
+!i10b 1
+!s100 9ek:Z5hY[VC6dnEGLHo@S3
+R2
+I2_mCV3AiE0DA?Jg=<X6Y_1
+R3
+R36
+w1640049132
+R20
+R21
+!i122 265
+L0 30 80
+R6
+r1
+!s85 0
+31
+R37
+R22
+R23
+!i113 1
+R10
+R11
+n@mux2bit4x1_vlg_vec_tst
+vMux2x1
+Z38 !s110 1638440748
+!i10b 1
+!s100 OT0_o6m<jV[kV]n;WDDHN2
+R2
+IdOBH1k=SO42Z??@_@E@EK3
+R3
+R0
+w1638440747
+R4
+R5
+!i122 20
+L0 32 107
+R6
+r1
+!s85 0
+31
+Z39 !s108 1638440748.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@mux2x1
+vMux2x1_vlg_vec_tst
+R38
+!i10b 1
+!s100 ]56fkhF86ziMlJ[=ZYGMV2
+R2
+IjLb_gogAaADNEOzX_:ebW2
+R3
+R0
+w1638440746
+Z40 8Register8.vwf.vt
+Z41 FRegister8.vwf.vt
+!i122 21
+Z42 L0 30 47
+R6
+r1
+!s85 0
+31
+R39
+Z43 !s107 Register8.vwf.vt|
+Z44 !s90 -work|work|Register8.vwf.vt|
+!i113 1
+R10
+R11
+n@mux2x1_vlg_vec_tst
+vMux6bit4x1
+Z45 !s110 1638987171
+!i10b 1
+!s100 4iK8mOcIHTM^ZPGl8WHoi0
+R2
+I]cP`cDkPm9;c7[;]cHcF>1
+R3
+R31
+w1638987163
+R4
+R5
+!i122 126
+L0 32 800
+R6
+r1
+!s85 0
+31
+!s108 1638987170.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@mux6bit4x1
+vMux6bit4x1_vlg_vec_tst
+R45
+!i10b 1
+!s100 N92B^?P6_620znZ1nOB`o1
+R2
+Io[HKPN8z=Q;JYY3hfj9b[3
+R3
+R31
+w1638987158
+R20
+R21
+!i122 127
+L0 30 162
+R6
+r1
+!s85 0
+31
+!s108 1638987171.000000
+R22
+R23
+!i113 1
+R10
+R11
+n@mux6bit4x1_vlg_vec_tst
+vOneHot3
+Z46 !s110 1638445237
+!i10b 1
+!s100 g]hXVoNUSLkGQU[1oonTe1
+R2
+ISFE^bz@0GUkWVV`L=2I0F1
+R3
+R0
+w1638445236
+R4
+R5
+!i122 32
+L0 32 430
+R6
+r1
+!s85 0
+31
+Z47 !s108 1638445237.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@one@hot3
+vOneHot3_vlg_vec_tst
+R46
+!i10b 1
+!s100 gQjFf^zdJIc6gfe_^LMgZ2
+R2
+IPak`]NKgk8h6WZGzQS[fY0
+R3
+R0
+w1638445235
+8Onehot3.vwf.vt
+FOnehot3.vwf.vt
+!i122 33
+R42
+R6
+r1
+!s85 0
+31
+R47
+!s107 Onehot3.vwf.vt|
+!s90 -work|work|Onehot3.vwf.vt|
+!i113 1
+R10
+R11
+n@one@hot3_vlg_vec_tst
+vRegister8
+!s110 1638438909
+!i10b 1
+!s100 @859VnREdmU7>BJPT[X;]1
+R2
+I?CoKbcX_^]8nC?KLQ4gfX0
+R3
+R0
+w1638438908
+R4
+R5
+!i122 14
+L0 32 519
+R6
+r1
+!s85 0
+31
+Z48 !s108 1638438909.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@register8
+vRegister8_vlg_vec_tst
+!s110 1638438910
+!i10b 1
+!s100 6;2>P:kS73C4?OTn>P47V1
+R2
+I<ohW_28dA2LMZQ6XP4=JW0
+R3
+R0
+w1638438907
+R40
+R41
+!i122 15
+L0 30 90
+R6
+r1
+!s85 0
+31
+R48
+R43
+R44
+!i113 1
+R10
+R11
+n@register8_vlg_vec_tst
+vRippleCarryAdder
+!s110 1638982609
+!i10b 1
+!s100 W4^YMmQhWKHdPEzZZjGZ=0
+R2
+IXN@;gRA@YPB=gCd5UH3Q?0
+R3
+R31
+w1638982603
+R4
+R5
+!i122 124
+L0 32 676
+R6
+r1
+!s85 0
+31
+!s108 1638982609.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@ripple@carry@adder
+vRippleCarryAdder_vlg_vec_tst
+!s110 1638982610
+!i10b 1
+!s100 D[JVf04R_TiBo4XTAb1QG2
+R2
+IK6^hN3=eb`:aY1>WM0J3^2
+R3
+R31
+w1638982599
+8RippleCarryAdder.vwf.vt
+FRippleCarryAdder.vwf.vt
+!i122 125
+L0 30 92
+R6
+r1
+!s85 0
+31
+!s108 1638982610.000000
+!s107 RippleCarryAdder.vwf.vt|
+!s90 -work|work|RippleCarryAdder.vwf.vt|
+!i113 1
+R10
+R11
+n@ripple@carry@adder_vlg_vec_tst
+vSegDisplay
+Z49 !s110 1640052808
+!i10b 1
+!s100 O0E:adT0JXTQb;eH^7Qb31
+R2
+Io^HEzK;UZ]JzMm0K:MAXZ2
+R3
+R36
+w1640052807
+R4
+R5
+!i122 270
+L0 32 1278
+R6
+r1
+!s85 0
+31
+Z50 !s108 1640052808.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@seg@display
+vSegDisplay_vlg_vec_tst
+R49
+!i10b 1
+!s100 d:G4]NHN>R@Ql^Wf^O8TD3
+R2
+IGfc@N:^Gz`DUCmOzZc]Y@0
+R3
+R36
+w1640052806
+8SegDisplay.vwf.vt
+FSegDisplay.vwf.vt
+!i122 271
+L0 30 144
+R6
+r1
+!s85 0
+31
+R50
+!s107 SegDisplay.vwf.vt|
+!s90 -work|work|SegDisplay.vwf.vt|
+!i113 1
+R10
+R11
+n@seg@display_vlg_vec_tst
+vSelector3
+Z51 !s110 1638447720
+!i10b 1
+!s100 J:ie]3D9lFA6o`Q89JGMi2
+R2
+IShSDZEE]:l9f05QRU]3]`3
+R3
+R0
+w1638447719
+R4
+R5
+!i122 42
+L0 32 586
+R6
+r1
+!s85 0
+31
+Z52 !s108 1638447720.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@selector3
+vSelector3_vlg_vec_tst
+R51
+!i10b 1
+!s100 JFSTXf`VFLi10ZzYUZAl]1
+R2
+IA^k`6IA44Iakmam>:PAL93
+R3
+R0
+w1638447718
+8Selector3.vwf.vt
+FSelector3.vwf.vt
+!i122 43
+R42
+R6
+r1
+!s85 0
+31
+R52
+!s107 Selector3.vwf.vt|
+!s90 -work|work|Selector3.vwf.vt|
+!i113 1
+R10
+R11
+n@selector3_vlg_vec_tst
+vSRAM32x8bit
+Z53 !s110 1638449569
+!i10b 1
+!s100 [>LE[7:SCLjd8JD7b`^Ce3
+R2
+IG14Sk<2[gMQd@]VVGYEeJ1
+R3
+R0
+w1638449567
+R4
+R5
+!i122 46
+L0 32 13437
+R6
+r1
+!s85 0
+31
+!s108 1638449568.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@s@r@a@m32x8bit
+vSRAM32x8bit_vlg_vec_tst
+R53
+!i10b 1
+!s100 FDjb9Phc2ZM>PmdU2H3;c2
+R2
+IG^:4mzW98WoT>h]A=Bcjh2
+R3
+R0
+w1638449566
+8SRAM32x8bit.vwf.vt
+FSRAM32x8bit.vwf.vt
+!i122 47
+L0 30 154
+R6
+r1
+!s85 0
+31
+!s108 1638449569.000000
+!s107 SRAM32x8bit.vwf.vt|
+!s90 -work|work|SRAM32x8bit.vwf.vt|
+!i113 1
+R10
+R11
+n@s@r@a@m32x8bit_vlg_vec_tst
+vSRAM4x8bit
+Z54 !s110 1638443133
+!i10b 1
+!s100 JZcD^L77dOlfIikAb6]G80
+R2
+Iz_j92z[c^l[[Jg1OkD4Vf3
+R3
+R0
+w1638443132
+R4
+R5
+!i122 28
+L0 32 1672
+R6
+r1
+!s85 0
+31
+Z55 !s108 1638443133.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@s@r@a@m4x8bit
+vSRAM4x8bit_vlg_vec_tst
+R54
+!i10b 1
+!s100 Ag`oi[F4;HakW[A2_Xb<50
+R2
+IS59^zg@bYFGCMHi_fh5S00
+R3
+R0
+w1638443131
+8SRAM.vwf.vt
+FSRAM.vwf.vt
+!i122 29
+L0 30 122
+R6
+r1
+!s85 0
+31
+R55
+!s107 SRAM.vwf.vt|
+!s90 -work|work|SRAM.vwf.vt|
+!i113 1
+R10
+R11
+n@s@r@a@m4x8bit_vlg_vec_tst
+vTableRegister
+Z56 !s110 1638978970
+!i10b 1
+!s100 iH@z_D5T5dd6OQ_<See_V1
+R2
+I;O?eBOg;`?3_;MT6Omm`F0
+R3
+R31
+w1638978963
+R4
+R5
+!i122 112
+L0 32 12776
+R6
+r1
+!s85 0
+31
+!s108 1638978969.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@table@register
+vTableRegister_vlg_vec_tst
+R56
+!i10b 1
+!s100 F=VQg8AdCARk]2]ESj5KI2
+R2
+I6mmmNJeYTTYJh<caE0=Oi3
+R3
+R31
+w1638978958
+Z57 8TuringMachine.vwf.vt
+Z58 FTuringMachine.vwf.vt
+!i122 113
+L0 30 40
+R6
+r1
+!s85 0
+31
+!s108 1638978970.000000
+Z59 !s107 TuringMachine.vwf.vt|
+Z60 !s90 -work|work|TuringMachine.vwf.vt|
+!i113 1
+R10
+R11
+n@table@register_vlg_vec_tst
+vtape_64
+!s110 1639048294
+!i10b 1
+!s100 KkgNiokM5MRD1jAK:@LkD0
+R2
+IBWIQ1m6b8G>N;FW0d0>Rn0
+R3
+R0
+w1639048293
+R4
+R5
+!i122 158
+L0 32 8941
+R6
+r1
+!s85 0
+31
+Z61 !s108 1639048294.000000
+R8
+R9
+!i113 1
+R10
+R11
+vtape_64_vlg_vec_tst
+!s110 1639048295
+!i10b 1
+!s100 3i4;B5;V@j6kC8W<^kla[3
+R2
+IG03e=Y<6[5979NPHn6h;?2
+R3
+R0
+w1639048292
+8TapeRegister.vwf.vt
+FTapeRegister.vwf.vt
+!i122 159
+L0 30 86
+R6
+r1
+!s85 0
+31
+R61
+!s107 TapeRegister.vwf.vt|
+!s90 -work|work|TapeRegister.vwf.vt|
+!i113 1
+R10
+R11
+vTuringMachine
+Z62 !s110 1640072015
+!i10b 1
+!s100 S0`1YM6jI6O]hLU9a7cbC2
+R2
+IljI:FakWXjWj;^:k9J5K<3
+R3
+R36
+w1640072013
+R4
+R5
+!i122 322
+L0 32 46656
+R6
+r1
+!s85 0
+31
+Z63 !s108 1640072015.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@turing@machine
+vTuringMachine_back
+Z64 !s110 1639982087
+!i10b 1
+!s100 JN_<@4_n``kGFM5nMWz7>1
+R2
+I3C@AzRQU?`:>iHBhO<@f[1
+R3
+Z65 dC:/Users/user/Desktop/TuringMachine/project/simulation/qsim
+w1639982085
+R4
+R5
+!i122 248
+L0 32 29003
+R6
+r1
+!s85 0
+31
+Z66 !s108 1639982087.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@turing@machine_back
+vTuringMachine_back_vlg_vec_tst
+R64
+!i10b 1
+!s100 2Fc8n?1?HBBgcE8JC58<C3
+R2
+I4ozz4AN`@7`Qhgzek<Xa:0
+R3
+R65
+w1639982083
+R57
+R58
+!i122 249
+L0 30 241
+R6
+r1
+!s85 0
+31
+R66
+R59
+R60
+!i113 1
+R10
+R11
+n@turing@machine_back_vlg_vec_tst
+vTuringMachine_vlg_vec_tst
+R62
+!i10b 1
+!s100 T^KY;V_2]m5n2:oW7W20C0
+R2
+IKn]obTPEbSMSnANL4]9513
+R3
+R36
+w1640072011
+R57
+R58
+!i122 323
+L0 30 253
+R6
+r1
+!s85 0
+31
+R63
+R59
+R60
+!i113 1
+R10
+R11
+n@turing@machine_vlg_vec_tst
+vTuringMachineDev
+!s110 1640112979
+!i10b 1
+!s100 eEK7UkVnDJ]EnM3QaN:0n0
+R2
+I89Rh>ne^L:HW@1d=a;N]@0
+R3
+R25
+w1640112974
+R4
+R5
+!i122 380
+L0 32 43955
+R6
+r1
+!s85 0
+31
+!s108 1640112977.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@turing@machine@dev
+vTuringMachineDev_vlg_vec_tst
+!s110 1640112980
+!i10b 1
+!s100 e;DS?_aQ0_>I:H:0QOeCI0
+R2
+Ig;T=XhUok3ARPS=OjVDi03
+R3
+R25
+w1640112970
+R57
+R58
+!i122 381
+L0 30 287
+R6
+r1
+!s85 0
+31
+!s108 1640112979.000000
+R59
+R60
+!i113 1
+R10
+R11
+n@turing@machine@dev_vlg_vec_tst
+vwindow
+Z67 !s110 1640059982
+!i10b 1
+!s100 @U1P]FB9`?L_0[@nFF2L^1
+R2
+IZ2ROa_@_HQlo0X<K4a2]l1
+R3
+R36
+w1640059980
+R4
+R5
+!i122 286
+L0 32 20319
+R6
+r1
+!s85 0
+31
+Z68 !s108 1640059982.000000
+R8
+R9
+!i113 1
+R10
+R11
+vwindow_vlg_vec_tst
+R67
+!i10b 1
+!s100 ^F3`M@g3YKHmNL:Vegb8m2
+R2
+IcXC3nAzQ7DImHSWaAfg>L1
+R3
+R36
+w1640059979
+8window.vwf.vt
+Fwindow.vwf.vt
+!i122 287
+L0 30 696
+R6
+r1
+!s85 0
+31
+R68
+!s107 window.vwf.vt|
+!s90 -work|work|window.vwf.vt|
+!i113 1
+R10
+R11

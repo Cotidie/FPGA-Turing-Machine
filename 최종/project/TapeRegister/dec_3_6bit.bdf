@@ -1,0 +1,177 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(output)
+	(rect 848 272 1024 288)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "value[5..0]" (rect 90 0 143 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 672 392 704 408)
+	(text "VCC" (rect 5 6 25 16)(font "Arial" (font_size 6)))
+	(text "inst1" (rect 7 -6 29 11)(font "Intel Clear" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 8 -3 13 9)(font "Courier New" (bold))(invisible))
+		(line (pt 16 0)(pt 16 8))
+	)
+	(drawing
+		(line (pt 24 8)(pt 8 8))
+	)
+	(rotate180)
+)
+(symbol
+	(rect 672 240 704 272)
+	(text "GND" (rect 3 6 24 16)(font "Arial" (font_size 6)))
+	(text "inst" (rect 12 -1 29 11)(font "Arial" )(invisible))
+	(port
+		(pt 16 32)
+		(output)
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 9 20 14 32)(font "Courier New" (bold))(invisible))
+		(line (pt 16 24)(pt 16 32))
+	)
+	(drawing
+		(line (pt 24 24)(pt 16 16))
+		(line (pt 16 16)(pt 8 24))
+		(line (pt 24 24)(pt 8 24))
+	)
+	(rotate180)
+)
+(connector
+	(text "value[5..0]" (rect 770 264 820 281)(font "Intel Clear" ))
+	(pt 760 280)
+	(pt 848 280)
+	(bus)
+)
+(connector
+	(text "value[0]" (rect 698 280 738 297)(font "Intel Clear" ))
+	(pt 760 296)
+	(pt 688 296)
+)
+(connector
+	(text "value[1]" (rect 698 296 738 313)(font "Intel Clear" ))
+	(pt 760 312)
+	(pt 688 312)
+)
+(connector
+	(text "value[2]" (rect 698 312 738 329)(font "Intel Clear" ))
+	(pt 760 328)
+	(pt 688 328)
+)
+(connector
+	(text "value[5]" (rect 698 360 738 377)(font "Intel Clear" ))
+	(pt 760 376)
+	(pt 688 376)
+)
+(connector
+	(pt 760 280)
+	(pt 760 296)
+	(bus)
+)
+(connector
+	(pt 760 296)
+	(pt 760 312)
+	(bus)
+)
+(connector
+	(pt 760 312)
+	(pt 760 328)
+	(bus)
+)
+(connector
+	(pt 760 376)
+	(pt 760 392)
+	(bus)
+)
+(connector
+	(pt 688 376)
+	(pt 688 392)
+)
+(connector
+	(pt 688 296)
+	(pt 688 272)
+)
+(connector
+	(pt 688 312)
+	(pt 688 296)
+)
+(connector
+	(text "value[3]" (rect 698 328 738 345)(font "Intel Clear" ))
+	(pt 760 344)
+	(pt 688 344)
+)
+(connector
+	(pt 760 328)
+	(pt 760 344)
+	(bus)
+)
+(connector
+	(pt 688 312)
+	(pt 688 328)
+)
+(connector
+	(pt 688 328)
+	(pt 688 344)
+)
+(connector
+	(pt 688 344)
+	(pt 688 360)
+)
+(connector
+	(pt 760 344)
+	(pt 760 360)
+	(bus)
+)
+(connector
+	(pt 760 360)
+	(pt 760 376)
+	(bus)
+)
+(connector
+	(text "value[4]" (rect 698 344 738 361)(font "Intel Clear" ))
+	(pt 688 360)
+	(pt 760 360)
+)
+(junction (pt 760 296))
+(junction (pt 760 312))
+(junction (pt 760 328))
+(junction (pt 760 344))
+(junction (pt 760 376))
+(junction (pt 688 296))
+(junction (pt 688 312))
+(junction (pt 688 328))
+(junction (pt 688 344))
+(junction (pt 760 360))

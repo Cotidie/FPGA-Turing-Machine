@@ -1,0 +1,50 @@
+
+# PlanAhead Generated physical constraints 
+
+
+NET "sega" LOC = E6;
+NET "segb" LOC = E5;
+NET "segc" LOC = D5;
+NET "segd" LOC = D6;
+NET "sege" LOC = J6;
+NET "segf" LOC = H8;
+NET "segg" LOC = H6;
+NET "single_a" LOC = P5;
+NET "single_b" LOC = P4;
+NET "single_c" LOC = N7;
+NET "single_d" LOC = N6;
+NET "single_e" LOC = R4;
+NET "single_f" LOC = P8;
+NET "single_g" LOC = P7;
+NET "clk" LOC = AB16;
+NET "led1" LOC = K8;
+NET "led2" LOC = M4;
+NET "led3" LOC = M6;
+NET "led4" LOC = M8;
+NET "led5" LOC = L6;
+NET "led6" LOC = M5;
+NET "led7" LOC = M7;
+NET "led8" LOC = N4;
+NET "com1" LOC = G7;
+NET "com2" LOC = G6;
+NET "com3" LOC = F7;
+NET "com4" LOC = F5;
+NET "com5" LOC = K7;
+NET "com6" LOC = K6;
+NET "com7" LOC = K5;
+NET "com8" LOC = J7;
+NET "key0" LOC = L1;
+NET "key1" LOC = K2;
+NET "key2" LOC = M3;
+NET "key3" LOC = M1;
+NET "key4" LOC = N3;
+NET "key5" LOC = N1;
+NET "key6" LOC = M2;
+NET "keyHash" LOC = K3;
+NET "quit" LOC = L3;
+NET "rerun" LOC = K4;
+NET "resume" LOC = K1;
+NET "rst" LOC = L4;
+
+NET "clk" IOSTANDARD = LVCMOS25;
+NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;

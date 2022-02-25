@@ -1,0 +1,112 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(output)
+	(rect 1800 624 1976 640)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "value[2..0]" (rect 90 0 143 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 1616 744 1648 760)
+	(text "VCC" (rect 5 6 25 16)(font "Arial" (font_size 6)))
+	(text "inst1" (rect 7 -6 29 11)(font "Intel Clear" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 8 -3 13 9)(font "Courier New" (bold))(invisible))
+		(line (pt 16 0)(pt 16 8))
+	)
+	(drawing
+		(line (pt 24 8)(pt 8 8))
+	)
+	(rotate180)
+)
+(connector
+	(text "value[2..0]" (rect 1722 616 1772 633)(font "Intel Clear" ))
+	(pt 1712 632)
+	(pt 1800 632)
+	(bus)
+)
+(connector
+	(text "value[0]" (rect 1650 632 1690 649)(font "Intel Clear" ))
+	(pt 1632 648)
+	(pt 1712 648)
+)
+(connector
+	(text "value[1]" (rect 1650 648 1690 665)(font "Intel Clear" ))
+	(pt 1632 664)
+	(pt 1712 664)
+)
+(connector
+	(pt 1632 648)
+	(pt 1632 664)
+)
+(connector
+	(pt 1712 632)
+	(pt 1712 648)
+	(bus)
+)
+(connector
+	(pt 1712 648)
+	(pt 1712 664)
+	(bus)
+)
+(connector
+	(pt 1712 664)
+	(pt 1712 680)
+	(bus)
+)
+(connector
+	(pt 1712 680)
+	(pt 1712 744)
+	(bus)
+)
+(connector
+	(text "value[2]" (rect 1650 664 1690 681)(font "Intel Clear" ))
+	(pt 1632 680)
+	(pt 1712 680)
+)
+(connector
+	(pt 1632 664)
+	(pt 1632 680)
+)
+(connector
+	(pt 1632 680)
+	(pt 1632 744)
+)
+(junction (pt 1712 648))
+(junction (pt 1632 664))
+(junction (pt 1712 664))
+(junction (pt 1712 680))
+(junction (pt 1632 680))
