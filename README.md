@@ -3,6 +3,7 @@
    * **제작툴**: Intel Quartus
    * **관련 언어**: Verilog HDL, Digital Logic Schema
    * **기간**: 2021년 2학기
+   * **성적**: A+, 정상동작
    
 # 구조
   
